@@ -1,0 +1,98 @@
+*{
+    margin:0 ;
+    padding: 0;
+}
+.navbar{
+    text-align: right;
+    padding: 1em;
+    background-color: burlywood;
+    box-shadow: 0 2px 3px -3px rgba(0,0,0,.3);
+    
+   
+}
+.navbar a{
+    padding: 2em;
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+#home{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
+    padding: 2em;
+  
+}
+#logoImage{
+    width: 20%;
+    padding: 2em;
+    margin-right: -5em;
+}
+.info{
+    margin-top: -2em;
+}
+.vierkant1{
+    width: 300px;
+    height: 300px;
+    background-color: cadetblue;
+    margin-top: 30px;
+    margin-left: 150px;
+    box-shadow: 10px 10px 5px grey;
+    padding: 1em;
+}
+.vierkant2{
+    width: 200px;
+    height: 200px;
+    background-color: violet;
+    margin-left: 350px;
+    margin-top: -250px;
+    box-shadow: 10px 10px 5px grey;
+    padding: 1em;
+}
+.vierkant3{
+    width: 100px;
+    height: 100px;
+    background-color: navajowhite;
+    margin-left: 500px;
+    margin-top: -150px;
+    box-shadow: 10px 10px 5px grey;
+    padding: 1em;
+}
+#aboutMe{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-gap: .5em;
+    padding: 1em;
+  margin-left: 2em;
+  
+}
+.mijnWerk{
+    display: flex;
+    flex-direction: column;
+}
+.color{
+    margin-top: -1em;
+    text-align: center;
+    width: 60%;
+    height: 20em;
+    background-color: violet;
+    box-shadow: 10px 10px 5px grey;
+}
+.small{
+   background-color: wheat;
+   margin-top: -15em;
+   margin-left: 4em;
+   margin-right: 9em;
+   width: 60%;
+   height: 17em;
+   padding: 1em;
+   box-shadow: 10px 10px 5px grey;
+}
+#myWork{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
+    padding: 2em;
+ 
+}
